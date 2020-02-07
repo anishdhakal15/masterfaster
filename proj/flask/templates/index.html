@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+{% extends "base.html" %}
+
+{% block body %}
+<h2>Controller</h2>
+<div>
+    <h4 style="display:inline">Light :{{light_status}}                </h4>
+
+    <a class="btn btn-primary" href='/lightaction/on'>ON</a>
+    <a class="btn btn-primary" href='/lightaction/off'>OFF</a>
+</div>
+<br>
+<div>
+    <h4 style="display:inline">Door :{{door_status}}                  </h4>
+    <a class="btn btn-primary" href='/dooraction/open'>OPEN</a>
+    <a class="btn btn-primary" href='/dooraction/close'>CLOSE</a>
+</div>
+<input type="checkbox" checked data-toggle="toggle" data-style="ios">
+
+{% endblock %}
